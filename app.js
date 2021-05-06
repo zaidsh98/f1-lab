@@ -28,7 +28,6 @@ alert('Good Evning')
 }
 
 confirm("is your name "+ userName + " ?")
-<<<<<<< HEAD
 */
 
 var favF1 = prompt('Whats your favourite f1 car between ferrari and mercedes')
@@ -55,6 +54,3 @@ if (z===carCount){
 
 }
  
-=======
-//zz
->>>>>>> 948985e08944c35cde551f1e895c5db814acb748
