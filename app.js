@@ -28,17 +28,22 @@ alert('Good Evning')
 }
 
 confirm("is your name "+ userName + " ?")
-<<<<<<< HEAD
 */
 
 var favF1 = prompt('Whats your favourite f1 car between ferrari and mercedes')
 
+function pickedCar(){
 while (favF1 !== 'ferrari' && favF1 !== 'mercedes' ){
   favF1 = prompt('try again!')
 }
+}
+pickedCar();
 
 var carCount = prompt('How many times you want to see the car? ')
-var image = ''
+
+function countingCar(){
+var image = '' 
+
 for (var i=0;i<carCount;i++){
 if (favF1 === 'ferrari'){
   image ='<img src="https://www.autosportfoto.sk/images/14ef8a9dcf5373b521ad5cbd0d7eb202.jpg">'
@@ -54,7 +59,6 @@ if (z===carCount){
 }
 
 }
+}
+countingCar();
  
-=======
-//zz
->>>>>>> 948985e08944c35cde551f1e895c5db814acb748
